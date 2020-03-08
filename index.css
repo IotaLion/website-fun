@@ -6,11 +6,16 @@
 
 :root {
     font-size: 16px;
-    /*font-family: 'Open Sans';*/
+    font-family: 'Open Sans';
     --text-primary: #b6b6b6;
     --text-secondary: #ececec;
-    --bg-primary: #f0f8ff;
+    --bg-primary: #23232e;
     --bg-secondary: #141418;
+    --transition-speed: 600ms;
+}
+
+header {
+    text-align: center;
 }
 
 body {
@@ -20,6 +25,7 @@ body {
     padding: 0;
 }
 
-main, header {
+main {
     margin-left: 5rem;
+    padding: 1rem;
 }
