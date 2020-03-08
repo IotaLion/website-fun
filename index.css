@@ -1,4 +1,31 @@
-body {
-    background-color: #f0f8ff;
+@import "structions/navigation-section/navigation.css";
+@import "structions/scrollbar-section/scrollbar.css";
+@import "structions/site-notice-section/site-notice.css";
+@import "structions/text-section/text.css";
+
+:root {
+    font-size: 16px;
+    font-family: 'Open Sans';
+    --text-primary: #b6b6b6;
+    --text-secondary: #ececec;
+    --bg-primary: #23232e;
+    --bg-secondary: #141418;
+    --bg-tertiary: #00ff00;
+    --transition-speed: 200ms;
+}
+
+header {
     text-align: center;
+}
+
+body {
+    color: #000000;
+    background-color: #f0f8ff;
+    margin: 0;
+    padding: 0;
+}
+
+main {
+    margin-left: 5rem;
+    padding: 1rem;
 }
