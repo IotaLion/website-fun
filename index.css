@@ -1,4 +1,3 @@
-@import "structions/head-section/header.css";
 @import "structions/navigation-section/navigation.css";
 @import "structions/scrollbar-section/scrollbar.css";
 @import "structions/site-notice-section/site-notice.css";
@@ -11,7 +10,8 @@
     --text-secondary: #ececec;
     --bg-primary: #23232e;
     --bg-secondary: #141418;
-    --transition-speed: 600ms;
+    --bg-tertiary: #00ff00;
+    --transition-speed: 200ms;
 }
 
 header {
