@@ -1,4 +1,25 @@
+@import "structions/head-section/header.css";
+@import "structions/navigation-section/navigation.css";
+@import "structions/scrollbar-section/scrollbar.css";
+@import "structions/site-notice-section/site-notice.css";
+@import "structions/text-section/text.css";
+
+:root {
+    font-size: 16px;
+    /*font-family: 'Open Sans';*/
+    --text-primary: #b6b6b6;
+    --text-secondary: #ececec;
+    --bg-primary: #f0f8ff;
+    --bg-secondary: #141418;
+}
+
 body {
+    color: #000000;
     background-color: #f0f8ff;
-    text-align: center;
+    margin: 0;
+    padding: 0;
+}
+
+main, header {
+    margin-left: 5rem;
 }
