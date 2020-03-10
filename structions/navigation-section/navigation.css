@@ -19,7 +19,7 @@
 }
 
 .nav-item:last-child {
-    margin-top: auto;
+    margin-top: 0;
     /*background-color: var(--bg-tertiary);*/
 }
 
@@ -77,18 +77,6 @@
     font-size: 1.5rem;
     letter-spacing: 0.3ch;
     width: 100%;
-}
-
-.logo svg {
-    transform: rotate(0deg);
-    transition: var(--transition-speed);
-}
-
-.logo-text {
-    display: inline;
-    position: absolute;
-    left: -999px;
-    transition: var(--transition-speed);
 }
 
 /*!* Small screens *!*/

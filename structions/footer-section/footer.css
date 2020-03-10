@@ -1,0 +1,17 @@
+footer {
+    bottom: 0;
+    position: absolute;
+    text-align: center;
+    background-color: var(--bg-primary);
+    color: var(--text-secondary);
+}
+
+a:link {
+    color: var(--link-secondary);
+}
+a:visited {
+    color: var(--link-tertiary);
+}
+a:hover {
+    color: var(--link-quaternary);
+}

@@ -1,6 +1,6 @@
 @import "structions/navigation-section/navigation.css";
 @import "structions/scrollbar-section/scrollbar.css";
-@import "structions/site-notice-section/site-notice.css";
+@import "structions/footer-section/footer.css";
 @import "structions/text-section/text.css";
 
 :root {
@@ -10,19 +10,29 @@
     --text-secondary: #ececec;
     --bg-primary: #23232e;
     --bg-secondary: #141418;
-    --bg-tertiary: #00ff00;
+    --link-primary: #23232e;
+    --link-secondary: #00ff00;
+    --link-tertiary: #10ab23;
+    --link-quaternary: #088d17;
     --transition-speed: 200ms;
 }
 
-header {
-    text-align: center;
+.container {
+    min-height: 100%;
+    position: relative;
 }
 
 body {
     color: #000000;
     background-color: #f0f8ff;
     margin: 0;
-    padding: 0;
+    padding-bottom: 1.5rem;
+}
+
+footer {
+    bottom: 0;
+    width: 100%;
+    height: 1.5rem;
 }
 
 main {
