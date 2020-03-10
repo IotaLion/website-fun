@@ -9,9 +9,11 @@ footer {
 a:link {
     color: var(--link-secondary);
 }
+
 a:visited {
     color: var(--link-tertiary);
 }
+
 a:hover {
     color: var(--link-quaternary);
 }
